@@ -1,8 +1,10 @@
-#/bin/bash \n\
+#!/bin/bash
 #include <stdio.h>
+
 /**
- *
- *  Return: Always 0 (Success)
+ * main - Entry point
+ * 
+ * Return: Always (Success)
  */
 int main(void)
 {
