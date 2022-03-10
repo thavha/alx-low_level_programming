@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *  main Entry point This function just printd words
+ *  Description: main Entry point 
  *  This function just printd words
  *  Return: Always 0 (Success)
  */
