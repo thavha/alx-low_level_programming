@@ -3,6 +3,7 @@
 /**
  * _islower -  prints alphabets in lower case, followed by a new line
  * Return: Always 0 (Success)
+ * c - is the input alphabet
  */
 int _islower(int c)
 {
