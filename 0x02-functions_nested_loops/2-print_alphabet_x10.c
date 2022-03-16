@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 -  prints alphabets x10 in lower case, followed by a new line
+ * print_alphabet_x10 -  prints alphabets x10 in lower case, and new line
  * Return: Always 0 (Success)
  */
 void print_alphabet_x10(void)
@@ -16,6 +16,7 @@ void print_alphabet_x10(void)
 			_putchar(al);
 		}
 		c++;
+		_putchar('\n')
 	}
 	_putchar('\n');
 }
