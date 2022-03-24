@@ -7,7 +7,7 @@
  * @n: number of bytes of str to concatenate
  *
  * Return: a poniter to resulting string
- * /
+ */
  char *_strncat(char *dest, char *src, int n)
  {
  	int i, j;
