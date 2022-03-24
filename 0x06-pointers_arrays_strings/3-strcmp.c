@@ -3,11 +3,11 @@
 /**
  * _strcmp - comoare two strings
  * @s1: string to compare to
- * @s1: string to compare
+ * @s2: string to compare
  *
  * Return: a poniter to resulting string
  */
-char _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	while (*s1 == *s2)
 	{

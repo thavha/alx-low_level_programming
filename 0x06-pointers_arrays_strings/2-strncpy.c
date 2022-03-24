@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copy a strings
+ * _strncpy - copy a strings
  * @dest: string to append to
  * @src: string to add
  * @n: number of bytes of str to concatenate
@@ -19,10 +19,12 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 		i++;
 	}
+
 	while (i < n)
 	{
-	dest[i] = '\0';
-	i++;
+		dest[i] = '\0';
+		i++;
 	}
+
 	return (dest);
 }
