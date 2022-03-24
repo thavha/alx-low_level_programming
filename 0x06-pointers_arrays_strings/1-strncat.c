@@ -8,8 +8,8 @@
  *
  * Return: a poniter to resulting string
  */
- char *_strncat(char *dest, char *src, int n)
- {
+char *_strncat(char *dest, char *src, int n)
+{
  	int i, j;
 
 	i = 0;
@@ -18,7 +18,7 @@
 	while (dest[i] != '\0')
 		i++;
 
-	while (src[j] != '\0' && j < n1-strncat.c)
+	while (src[j] != '\0' && j < n)
 	{
 		dest[i] = src[j];
 		j++;
