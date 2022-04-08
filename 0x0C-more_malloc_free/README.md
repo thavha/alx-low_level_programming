@@ -23,7 +23,4 @@ What you should learn from this project:
 ### [4. _realloc](./100-realloc.c)
 * Write a function that reallocates a memory block using malloc and free
 
----
 
-## Author
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)
